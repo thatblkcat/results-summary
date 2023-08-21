@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    body{
+	font-family: "Hanken Grotesk";
+	background: lightblue;
+    }
+    .first-part{
+	background: linear-gradient( hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+border-radius: 27px;
+padding: 0 20px;
+top: 189px;
+width: 24%;
+position: absolute;
+left:173px;
+height: 649px;
+    }
+    .your-result {
+  margin-left: 107px;
+  font-size: 28px;
+  color: #d1cbfe;
+    }
+  .circle  {	background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+border-radius: 223px;
+padding: 0 20px;
+  top: 85px;
+  width: 55%;
+  position: absolute;
+  left: 60px;
+  height: 254px;
+	   }
+  h1 {
+  color: #fbfbfb;
+  left: 61px;
+  position: relative;
+  font-size: 88px;
+  }
+  .pcircle {
+  color: #8275f9;
+  left: 83px;
+  position: relative;
+  top: -58px;
+  }
+  .p {
+  color: #a6a0ff;
+  font-size: 18px;
+  margin-right: 67px;
+  margin-left: 33px;
+  }
+  h2 {
+  color: white;
+  font-size: 42px;
+  left: 108px;
+  position: relative;
+  }
+  .summary{
+      	background: white;
+border-radius: 27px;
+padding: 0 20px;
+top: 189px;
+width: 24%;
+position: absolute;
+left: 573px;
+height: 649px;
+  }
+  .psummary {
+  color: #2a2c43;
+  font-size: 34px;
+  left: 12px;
+  position: relative;
+  }
+  
+  .divreaction {
+  background: #fff6f5;
+border-radius: 13px;
+padding: 0 20px;
+top: 87px;
+width: 72%;
+position: absolute;
+left: 21px;
+height: 59px;
+  }
+  .reaction {
+  top: -142px;
+  position: relative;
+  }
+  .numberreaction {
+  font-weight: bold;
+  left: 200px;
+  position: relative;
+  top: -69px;
+  color: #363b4f;
+}
+  .preaction {
+left: 35px;
+position: relative;
+top: 5px;
+font-weight: bold;
+color: #d27576;
+
+  }
+  .numberreaction2 {
+  top: -106px;
+  position: relative;
+  left: 222px;
+  font-weight: bold;
+  color: #93919a;
+  }
+    .divmemory {
+  background: #fff6f5;
+border-radius: 13px;
+padding: 0 20px;
+top: 87px;
+width: 72%;
+position: absolute;
+left: 21px;
+height: 59px;
+    }
+    .divmemory {
+  background: #fffbf2;
+  border-radius: 13px;
+  padding: 0 20px;
+  top: 164px;
+  width: 72%;
+  position: absolute;
+  left: 21px;
+  height: 59px;
+    }
+    .pmemory {
+  font-weight: bold;
+  left: 34px;
+  position: relative;
+  color: #f6ba4a;
+    }
+    .numbermemory {
+  font-weight: bold;
+  left: 195px;
+  position: relative;
+  top: -38px;
+  color: #2c2f40;
+    }
+    .memory {
+  top: -110px;
+  position: relative;
+    }
+    .numbermemory2 {
+  position: relative;
+  top: -75px;
+  left: 222px;
+  font-weight: bold;
+  color: #94929b;
+}
+  </style>
+</head>
+<body>
+<div class="first-part">
+  <p class="your-result">Your Result</p>
+  <div class="circle">
+ <h1>76</h1>
+ <p class="pcircle">of 100</p>
+ </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <h2>Great</h2>
+  <p class="p">You scored higher than 65% of the people who have taken these tests.</p>
+</div>
+<div class="summary">
+ <p class="psummary"> Summary</p>
+
+ <div class="divreaction">
+ <p class="preaction"> Reaction</p>
+<br>
+   <p class="numberreaction">80</p><p class="numberreaction2">/ 100</p>
+ <img class="reaction" src="assets/images/icon-reaction.svg">
+ </div>
+ <br>
+ <br>
+ <br>
+ <br>
+ <div class="divmemory">
+ <p class="pmemory"> Memory</p>
+ <p class="numbermemory"> 92 <p class="numbermemory2">/ 100</p>
+ <img class="memory" src="assets/images/icon-memory.svg">
+</div>
+ 
+				
+<div class="divverbal">
+ <p class="pverbal"> Verbal</p>
+ <p class="numberverbal">61</p> <p class="numberverbal2">/ 100</p>
+  <img class="verbal" src="assets/images/icon-verbal.svg">
+</div>
+
+<div class="divvisual">
+ <p class="pvisual"> Visual</p>
+ <p class="numbervisual">72</p> <p class="numbervisual2">/ 100</p>
+  <img class="visual" src="assets/images/icon-visual.svg">
+</div>
+ <button>Continue</button>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
